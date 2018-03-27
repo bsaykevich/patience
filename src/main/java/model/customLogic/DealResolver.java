@@ -20,10 +20,10 @@ public class DealResolver {
                     deal.get(i).getRank().equals(deal.get(i+2).getRank())){
                 deal.remove(i);
 
-                for(Cards card : deal){
+                /*for(Cards card : deal){
                     System.out.print(card.getShortName() + " ");
                 }
-                System.out.println();
+                System.out.println();*/
 
                 return true;
             }
@@ -42,7 +42,7 @@ public class DealResolver {
 
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Deal deal = new Deal();
         List<Cards> newDeal = deal.getNewDeal();
 
@@ -60,5 +60,5 @@ public class DealResolver {
         for(Cards card : result){
             System.out.print(card.getShortName() + " ");
         }
-    }
+    }*/
 }

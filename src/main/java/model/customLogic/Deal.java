@@ -35,11 +35,11 @@ public class Deal {
         }
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Deal deal = new Deal();
         List<Cards> newDeal = deal.getNewDeal();
         for(Cards card : newDeal){
             System.out.print(card.getShortName() + " ");
         }
-    }
+    }*/
 }
