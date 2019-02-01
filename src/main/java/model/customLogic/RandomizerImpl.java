@@ -18,6 +18,7 @@ public class RandomizerImpl implements Randomizer {
 
     @Override
     public int[] getRandomArray() {
+
         randomArray = new int[deckSize];
         List<Integer> randomIntList = new ArrayList<>();
         Random random = new Random();
